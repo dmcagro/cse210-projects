@@ -3,8 +3,8 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    List<int> numbers = new List<int>();
-
+{   List<int> numbers = new List<int>();
+    
         Console.WriteLine("Enter a list of numbers, type 0 when finished.");
 
         int userNumber = -1;
@@ -20,7 +20,7 @@ class Program
             }
         }
 
-        // Compute the sum
+        
         int sum = 0;
 
         foreach (int number in numbers)
@@ -28,10 +28,10 @@ class Program
             sum += number;
         }
 
-        // Compute the average
+    
         double average = (double)sum / numbers.Count;
 
-        // Find the maximum number
+        
         int maxNumber = numbers[0];
 
         foreach (int number in numbers)
@@ -42,7 +42,7 @@ class Program
             }
         }
 
-        // Display results
+        {
         Console.WriteLine($"The sum is: {sum}");
         Console.WriteLine($"The average is: {average}");
         Console.WriteLine($"The largest number is: {maxNumber}");
