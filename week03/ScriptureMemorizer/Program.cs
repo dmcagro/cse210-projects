@@ -1,12 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-/*
- * Exceeding Requirements:
- * - Program contains a library of scriptures.
- * - A scripture is selected randomly each time the program runs.
- * - Only visible words are chosen for hiding.
- */
 
 class Program
 {
