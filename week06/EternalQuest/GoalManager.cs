@@ -14,6 +14,7 @@ public class GoalManager
         {
             Console.WriteLine($"{i + 1}. {_goals[i].GetStatus()}");
         }
+    
     }
 
     public void RecordGoal(int index)
@@ -35,4 +36,5 @@ public class GoalManager
     {
         return _score / 1000;
     }
+    
 }
